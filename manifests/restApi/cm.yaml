@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  dbname: library
+  host: mysql.database.svc.cluster.localHost:3306
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: restapi-config
+  namespace: restapi
